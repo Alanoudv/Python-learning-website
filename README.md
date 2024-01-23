@@ -13,6 +13,4 @@ this website was done and carried out as a requirement for Web application devel
 <h3> this is video of the concepts and the whole website</h3>
 https://github.com/Alanoudv/Python-learning-website/assets/151371414/3282c071-4cee-46a1-bb74-199d397fefe2
 
-<br>
-https://github.com/Alanoudv/Python-learning-website/assets/151371414/cce7fc3c-2d49-44c5-a79b-d8189c774932
 
