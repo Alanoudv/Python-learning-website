@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>concept3</title>
+    <script>
+        function myFunction() {
+            document.getElementById('demo').style.display='block'
+        }
+        function myFunction2(){
+            document.getElementById('demo2').style.display='block'
+        }
+        
+    </script>
+</head>
+<style>
+body {
+    background-image: linear-gradient(rgba(24, 23, 23, 0.603),rgba(40, 40, 92, 0.767)),url(4\ .jpeg);
+    height: 500vh;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 100px;
+    padding: 40px;
+}
+
+h{
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    font-size: 19px;
+}
+ul{
+    font-size: 16px;
+    font-weight: bold;
+}
+table{
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: 20px;
+}
+
+td,th {
+    border: 1px solid rgba(226, 226, 226, 0.692);
+    text-align: left;
+    padding: 8px;
+}
+img {
+    margin-left: 40px;
+}
+
+button{
+    width: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  background: transparent;
+  cursor: pointer;
+}
+
+</style>
+<body>
+        <h> Python Lists </h>
+        <hr>
+        <p>
+            List is one of the built-in data types in Python. A Python list is a sequence of comma separated items, enclosed in square brackets [ ].
+            <br>
+            The items in a Python list need not be of the same data type.
+        </p>
+        <p style="margin-left: 25px; font-weight: bold; color: rgba(255, 255, 255, 0.623);">
+            Following are example of Python lists −
+        </p>
+        <img src="C:\Users\Alano\OneDrive\Desktop/concept3-1.jpg" alt="">
+        <h1> Python List Operations : </h1>
+        <p>In Python, List is a sequence. Hence, we can concatenate two lists with "+" operator and concatenate multiple copies of a list with "*" operator. The membership operators "in" and "not in" work with list object.</p>
+        <table>
+            <tr style="background-color: rgba(240, 248, 255, 0.61);"> 
+                <th> Python Expression </th>
+                <th> results </th>
+                <th> Description </th>
+            </tr>
+            <tr>
+                <td> [1,2,3] + [4,5,6] </td>
+                <td> [1,2,3,4,5,6] </td>
+                <td> Concatenation </td>
+            </tr>
+            <tr>
+                <td> ['Hi!'] * 4 </td>
+                <td> ['Hi!','Hi!','Hi!','Hi!'] </td>
+                <td> Repetition </td>
+            </tr>
+            <tr>
+                <td> 3 in [1,2,3] </td>
+                <td> True </td>
+                <td> Membership </td>
+            </tr>
+
+        </table>
+        <p style=" font-size: 20px;color: rgba(255, 255, 255, 0.5);font-weight: bold;"> Learn More :</p>
+        <a href="https://www.w3schools.com/python/python_lists.asp" target="_blank" id="demo" style="display:none"> w3schools </a>
+        <br>
+        <button type="button" onclick="myFunction ()">Click Here</button>
+
+        
+
+        <br>
+        <br>
+        <h> Python Dictionaries </h>
+        <hr>
+        <p>
+            A dictionary in Python is a collection of key values, used to store data values like a map, which, unlike other data types holds Key-value only a single value as an element.
+        </p>
+        <p style="margin-left: 25px; font-weight: bold; color: rgba(255, 255, 255, 0.623);">
+            Following are example of Python Dictionaries −
+        </p>
+        <img src="C:\Users\Alano\OneDrive\Desktop/concept3-2.jpg " alt="">
+        <h1> Built-in Dictionary Functions & Methods </h1>
+        <p style="margin-left: 25px; font-weight: bold; color: rgba(255, 255, 255, 0.623);"> Python includes the following dictionary functions − </p>
+
+        <table>
+            <tr style="background-color: rgba(240, 248, 255, 0.61);"> 
+                <th > Sr.No </th>
+                <th style="padding-right: 300px;"> Functionwith Description </th>
+                
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> CMP (dict1,dict2) <br> Compares element of both dict </td>
+               
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> len(dict) <br> Gives the total of dictionary. This would be equal to the number of itmes in the dictionary </td>
+                
+            </tr>
+            <tr>
+                <td> 3  </td>
+                <td> str(dict) <br> Produces a printable string representation of dictionary </td>
+                
+            </tr>
+            <tr>
+                <td> 4  </td>
+                <td> type(variable) <br> Return the type of the passed variable . If passed variable is dictionary, then it would return a dictionary type </td>
+                
+            </tr>
+
+        </table>
+        <p style="margin-left: 25px; font-weight: bold; color: rgba(255, 255, 255, 0.623);">Python includes following dictionary methods −</p>
+
+        <table>
+            <tr style="background-color: rgba(240, 248, 255, 0.61);"> 
+                <th > Sr.No </th>
+                <th style="padding-right: 300px;"> Functionwith Description </th>
+                
+            </tr>
+            <tr>
+                <td> 1 </td>
+                <td> dict.clear() <br> Removes all elements of dictionary dict </td>
+               
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> dict.copy() <br> Returns a shallow copy of dictionary dict </td>
+                
+            </tr>
+            <tr>
+                <td> 3  </td>
+                <td> dict.fromkeys() <br> Create a new dictionary with keys from seq and values set to value. </td>
+                
+            </tr>
+            <tr>
+                <td> 4  </td>
+                <td> dict.get(key, default=None) <br> For key key, returns value or default if key not in dictionary </td>
+                
+            </tr>
+            <tr>
+                <td> 5 </td>
+                <td> dict.has_key(key) <br> Returns true if key in dictionary dict, false otherwise</td>
+                
+            </tr>
+            <tr>
+                <td> 6 </td>
+                <td> dict.items() <br> Returns a list of dict's (key, value) tuple pairs </td>
+                
+            </tr>
+            <tr>
+                <td> 7 </td>
+                <td> dict.keys() <br> Returns list of dictionary dict's keys </td>
+                
+            </tr>
+            <tr>
+                <td> 8 </td>
+                <td> dict.setdefault(key, default=None) <br> Similar to get(), but will set dict[key]=default if key is not already in dict </td>
+                
+            </tr>
+            <tr>
+                <td> 9 </td>
+                <td> dict.update(dict2) <br> Adds dictionary dict2's key-values pairs to dict </td>
+                
+            </tr>
+            <tr>
+                <td> 10 </td>
+                <td> dict.values() <br> Returns list of dictionary dict's values </td>
+                
+            </tr>
+        </table>
+        <p style=" font-size: 20px;color: rgba(255, 255, 255, 0.5);font-weight: bold;"> Learn More :</p>
+        <a href="https://www.w3schools.com/python/python_dictionaries.asp" target="_blank" id="demo2" style="display:none"> w3schools </a>
+        <br>
+        <button type="button" onclick="myFunction2()">Click Here</button>
+
+        
+</body>
+</html>

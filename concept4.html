@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <title>Sets and tuples and functions</title>
+    <head>
+    </head>
+        <style>
+        body{
+            background-image:linear-gradient(rgba(24, 23, 23, 0.603),rgba(40, 40, 92, 0.767));
+            height: 670vh;
+        }
+    h1{
+	font-size:40px;
+}
+ p{
+    font-size: 18px;
+	font-weight: 40;
+	
+}
+        </style>
+            
+    <body >
+        <h2> Bookmark</h2>
+        <a href="#function"> go to Funtion concept</a><br>
+        <a href="#set"> go to Set concept</a><br>
+        <a href="#tuple"> go to Tuple concept </a><br>
+
+        <h1 id='function', style="background-color:antiquewhite;text-align:center;"> Functions</h1>
+
+        <br><h2>There are two types of function in Python programming:</h2>
+        <p id="types" style="display: none;">*Standard library functions - These are built-in functions in Python that are available to use.
+            <br>*User-defined functions - We can create our own functions based on our requirements.</p>
+        <button type="button" onclick="document.getElementById('types').style.display='block'">click here to display the types!</button>
+
+        <br><br><h2>Python Function Declaration</h2>
+        <p> -def : keyword used to declare a function
+            <br>-function_name : any name given to the function
+            <br>-arguments : any value passed to function
+            <br>-return (optional) : returns value from a function
+        </p>
+        <h2>Calling a Function in Python</h2>
+        <img src="finctions-ex1.png" height="150",width="150">
+    
+       
+<!--set-->
+<h1 id='set', style="background-color:antiquewhite;text-align:center;"> 
+    Set
+</h1>
+<p><br>
+    A set is a collection of unique data. That is, elements of a set cannot be duplicate.
+    <br>
+    For example, Suppose we want to store information about student IDs. Since student IDs cannot be duplicate, we can use a set.
+<br>
+In Python, we create sets by placing all the elements inside curly braces {}, separated by comma.
+
+A set can have any number of items and they may be of different types (integer, float, tuple, string etc.). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+<br>
+Let's see an example<br><br> input <br>
+</p>
+<img src="set-ex1.png" height="200",width="200">
+<Br><br><p> output</p><br>
+    <img src="outputset-ex1.png" height="200",width="200">
+
+<br><br><h2>Add Set Items in Python</h2>
+
+<p >Sets are mutable. However, since they are unordered, indexing has no meaning.<br>
+We cannot access or change an element of a set using indexing or slicing.<br> Set data type does not support it.
+<br>Add Items to a Set in Python
+<br>In Python, we use the add() method to add an item to a set. For example,
+</p>
+<img src="set-ex2.png" height="150",width="150">
+<h2>Update Python Set</h2>
+<p>
+The update() method is used to update the set with items other collection types (lists, tuples, sets, etc).
+<br> For example,<br>
+</p>
+<img src="set-ex3png.png" height="150",width="150">
+<h2>
+    Built-in Functions with Set
+</h2>
+<img src="set-ex4.png" height="350",width="350">
+
+<!--tuples-->
+<h1 id='tuple', style="background-color:antiquewhite;text-align:center;"> 
+    Tuples
+</h1>
+<br><h2>Creating a Tuple</h2>
+<p><br>
+    A tuple is created by placing all the items (elements) inside parentheses (), separated by commas. The parentheses are optional, however, it is a good practice to use them.
+
+<br>A tuple can have any number of items and they may be of different types (integer, float, list, string, etc.).<bR><br>
+<img src="tuple-ex1.png" height="150",width="150">
+<br><br> <h2>Access Python Tuple Elements</h2>
+<p> a list, each element of a tuple is represented by index numbers (0, 1, ...) where the first element is at index 0.
+<br>We use the index number to access tuple elements. For example,
+<br>1. Indexing
+<br>We can use the index operator [] to access an item in a tuple, where the index starts from 0.
+<br>So, a tuple having 6 elements will have indices from 0 to 5. Trying to access an index outside of the tuple index range( 6,7,... in this example) will raise an IndexError.
+<br>The index must be an integer, so we cannot use float or other types. This will result in TypeError.
+<br>Likewise, nested tuples are accessed using nested indexing, as shown in the example below.<br><Br></p>
+    <img src="tuple-ex2.png" height="150",width="150">
+    <h2>2. Slicing</h2>
+    <p> We can access a range of items in a tuple by using the slicing operator colon : .</p>
+    <img src="tuple-ex3.png" height="150",width="150">
+<br> <br> 
+<a href="concept.html" , target="_self">
+    <button type="button" >Click here to view the categories </button> 
+    </a>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(24, 23, 23, 0.514),rgba(40, 40, 92, 0.664));
+    height: 200vh;
+}
+.content {
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.content h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.content p{
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 3px;
+    width: 390px;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+.card-list{
+    width: 270px;
+    height: 790px;
+    padding: 30px;
+    margin-top: -420px;
+    margin-left: 550px;
+}
+
+.card-list img {
+    width: 220px;
+    height: 220px;
+    border-radius: 40px;
+    object-fit: cover;
+    
+ 
+}
+
+.card-title {
+    color: rgba(0, 0, 0, 0.767);
+    text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -20px;
+    margin-right: 50px;
+
+}
+
+.card-list2 {
+    width: 270px;
+    height: 790px;
+    padding: 30px;
+    margin-top: -850px;
+    margin-left: 850px;
+}
+
+.card-list2 img {
+    width: 220px;
+    height: 220px;
+    border-radius: 40px;
+    object-fit: cover;
+}
