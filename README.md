@@ -7,7 +7,7 @@ this website was done and carried out as a requirement for Web application devel
 <img width="943" alt="Screenshot 2024-01-23 133653" src="https://github.com/Alanoudv/Python-learning-website/assets/151371414/7b2941fc-5bb1-4c72-b358-21be64f24dc4">
 
 <h1> Categories</h1>
-<p> after you click on the button in the first page it will take you tp this pagr </p> <br>
+<p> after you click on the button in the first page it will take you to this page </p> <br>
 <img width="943" alt="Screenshot 2024-01-23 133728" src="https://github.com/Alanoudv/Python-learning-website/assets/151371414/c20575e9-3258-445c-84d2-e1629061d684">
 <h1>Concepts</h1>
 <h3> this is video of the concepts and the whole website</h3>
